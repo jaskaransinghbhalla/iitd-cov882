@@ -32,6 +32,7 @@ const Exchange = () => {
             alert("Error selling tokens");
         }
         setTransact(false);
+        setTokens("");
     };
 
     const sell = async () => {
@@ -55,6 +56,7 @@ const Exchange = () => {
             alert("Error purchasing tokens");
         }
         setTransact(false);
+        setTokens("");
     };
 
     useEffect(() => {

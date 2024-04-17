@@ -16,7 +16,7 @@ export default function Home() {
         <title>Exchange PJC tokens</title>
       </Head>
       <div className="home__container">
-        <h1>Sign in to exchange</h1>
+        <h1 className="p-3 text-lg">Sign in to exchange</h1>
         <ConnectWallet />
       </div>
     </div>
